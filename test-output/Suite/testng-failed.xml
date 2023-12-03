@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Label Function Test(failed)">
+    <classes>
+      <class name="labelfunction.LA5">
+        <methods>
+          <include name="openSite"/>
+          <include name="TC5_recolorLabel"/>
+          <include name="TC5_createLabel"/>
+          <include name="quitWebdriver"/>
+        </methods>
+      </class> <!-- labelfunction.LA5 -->
+      <class name="labelfunction.LA7">
+        <methods>
+          <include name="quitWebdriver"/>
+          <include name="openSite"/>
+          <include name="TC7"/>
+        </methods>
+      </class> <!-- labelfunction.LA7 -->
+      <class name="labelfunction.LA6">
+        <methods>
+          <include name="openSite"/>
+          <include name="TC6"/>
+          <include name="quitWebdriver"/>
+        </methods>
+      </class> <!-- labelfunction.LA6 -->
+      <class name="labelfunction.LA3">
+        <methods>
+          <include name="TC3_deleteLabel"/>
+          <include name="openSite"/>
+          <include name="TC3_createLabel"/>
+          <include name="quitWebdriver"/>
+        </methods>
+      </class> <!-- labelfunction.LA3 -->
+      <class name="labelfunction.LA4">
+        <methods>
+          <include name="quitWebdriver"/>
+          <include name="TC4"/>
+          <include name="openSite"/>
+        </methods>
+      </class> <!-- labelfunction.LA4 -->
+      <class name="labelfunction.LA2">
+        <methods>
+          <include name="TC2"/>
+          <include name="quitWebdriver"/>
+          <include name="openSite"/>
+        </methods>
+      </class> <!-- labelfunction.LA2 -->
+      <class name="labelfunction.LA1">
+        <methods>
+          <include name="quitWebdriver"/>
+          <include name="TC1"/>
+          <include name="openSite"/>
+        </methods>
+      </class> <!-- labelfunction.LA1 -->
+    </classes>
+  </test> <!-- Label Function Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserTest" value="&quot;browserTest&quot;"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="automation.testsuite.ProjectEvents_EventType_Team2">
+        <methods>
+          <include name="EventType08_KiemTraTaskstartdateType"/>
+          <include name="EventType05_KiemTraHienThiKhiKhongChonGiaTriTrongDropdown"/>
+          <include name="EventType10_KiemTraProjectstartdateType"/>
+          <include name="EventType04_KiemTraGiaTriMacDinh_EventCalendar"/>
+          <include name="EventType07_KiemTraLeaveType"/>
+          <include name="EventType12_KiemTraKhiChonTatCaGiaTriTrongDropdownList"/>
+          <include name="EventType11_KiemTraProjectdeadlineType"/>
+          <include name="EventType09_KiemTraTaskdeadlineType"/>
+          <include name="EventType13_KiemTraKhiHuyChonTatCaGiaTriTrongDropdownList"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- automation.testsuite.ProjectEvents_EventType_Team2 -->
+      <class name="automation.testsuite.ProjectEvents_DisplayByMonthWeekDay_Team2">
+        <methods>
+          <include name="Testcase_Event_6"/>
+          <include name="Testcase_Event_7"/>
+          <include name="Testcase_Event_8"/>
+          <include name="Testcase_Event_2"/>
+          <include name="OpenBrowser"/>
+          <include name="Testcase_Event_3"/>
+          <include name="Testcase_Event_4"/>
+          <include name="Testcase_Event_5"/>
+          <include name="Testcase_Event_1"/>
+          <include name="closeChrome"/>
+        </methods>
+      </class> <!-- automation.testsuite.ProjectEvents_DisplayByMonthWeekDay_Team2 -->
+      <class name="automation.testsuite.FilterProject">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="filterLableHighPriorityProductBySelectBox"/>
+          <include name="filterHighPriorityProductByButton"/>
+          <include name="filterUpcomingProductBySelectBox"/>
+          <include name="filterOpenProductByButton"/>
+          <include name="openBrowser"/>
+          <include name="filterCompletedProductBySelectBox"/>
+        </methods>
+      </class> <!-- automation.testsuite.FilterProject -->
+      <class name="automation.testsuite.ProjectEvents_AddEvent_Team2">
+        <methods>
+          <include name="AddProjectStartDateType"/>
+          <include name="AddTaskStartDateType"/>
+          <include name="OpenBrowser"/>
+          <include name="AddEventsType"/>
+          <include name="AddProjectDeadlineType"/>
+          <include name="CloseBrowser"/>
+          <include name="AddLeaveType"/>
+          <include name="AddTaskDeadlineType"/>
+        </methods>
+      </class> <!-- automation.testsuite.ProjectEvents_AddEvent_Team2 -->
+      <class name="automation.testsuite.DeleteProject">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="deleteProjectSuccessfully"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- automation.testsuite.DeleteProject -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
